@@ -5,8 +5,6 @@ function init() {
    
   canvas = document.getElementById('canvas');
   world = new World(canvas);
- 
-
-  world = new World(canvas); 
+  
   console.log('World OK:', world.charakter);
 } 
